@@ -26,6 +26,9 @@
 
                             <b>Contenido</b>
                             <p>{{ nota.contenido }}</p>
+
+                            <b>Categoria</b>
+                            <p>{{ nota.category_name }}</p>
                             </div>
                             
                         </div>
