@@ -23,8 +23,8 @@
                             </label>
 
                             <select v-model="form.category_status" class="form-input w-full rounded-md shadow-sm">
-                                <option value=1>Enabled</option>
-                                <option value=0>Disabled</option>
+                                <option value=1 :selected="[form.category_status ? 'selected' : '']">Enabled</option>
+                                <option value=0 :selected="[form.category_status ? '' : 'selected']">Disabled</option>
                             </select>
                          </div>
                           <div class="flex items-center justify-end px-4 py-3 bg-gray-50 text-right sm:px-6">
